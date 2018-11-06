@@ -5,7 +5,7 @@ from sklearn.svm import SVC
 from sklearn.neighbors import KNeighborsClassifier 
 from sklearn.ensemble import RandomForestClassifier
 
-filename = 'BBC.csv'
+filename = 'data/BBCTest.csv'
 dataframe = read_csv(filename) 
 
 array = dataframe.values
